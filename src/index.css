@@ -1,0 +1,120 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.watch-widget {
+  width: 700px;
+  padding: 20px;
+  border: 1px solid #afafaf;
+  border-radius: 8px;
+}
+
+.watch-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.input-box {
+  width: 250px;
+}
+
+.watch-label {
+  margin-bottom: 5px;
+  display: block;
+  font-size: 20px;
+}
+
+.watch-input {
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #afafaf;
+  border-radius: 8px;
+}
+
+.watch-add {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ededed;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.watch-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.whatch {
+  position: relative;
+  padding: 10px 20px;
+  display: inline-block;
+  background-color: #ebebeb;
+  border-radius: 8px;
+}
+
+.clock{
+  color: #000;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.whatch-title {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.watch-remove {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.error {
+  position: absolute;
+  font-size: 13px;
+  color: red;
+}
